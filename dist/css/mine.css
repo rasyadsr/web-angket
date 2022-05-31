@@ -1,0 +1,38 @@
+/* Costum CSS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1a9bfc;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1a9bfc;
+  }
+
+div.card#card-division:hover {
+    border: 2px solid #1a9bfc;
+}
+
+img.logo-title {
+    width: 80px;
+}
